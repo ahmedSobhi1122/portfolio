@@ -368,17 +368,17 @@ span {
     width: 50px;
 }
 
-.services {
+.projects {
     background: var(--bg-color);
     color: black;
 }
 
-.services h2 {
+.projects h2 {
     margin-bottom: 5rem;
     color: white;
 }
 
-.services-container {
+.projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -603,7 +603,7 @@ span {
         font-size: 55%;
     }
 
-    .services-container {
+    .projects-container {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 5rem;
@@ -636,7 +636,7 @@ span {
         left: 0;
     }
 
-    .services {
+    .projects {
         padding-bottom: 7rem;
     }
 
@@ -683,6 +683,10 @@ span {
         color: white;
     }
 
+    .section {
+        padding: 10rem 3% 2rem;
+    }
+
     .home {
         flex-direction: column-reverse;
         margin: 5rem 4rem;
@@ -706,11 +710,11 @@ span {
         width: 56vw;
     }
 
-    .services h2 {
+    .projects h2 {
         margin-bottom: 3rem;
     }
 
-    .services-container {
+    .projects-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
