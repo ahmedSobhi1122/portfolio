@@ -408,19 +408,19 @@ span {
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
-    padding: 5rem 5rem;
+    padding: 4rem 4rem;
 }
 
 .project-info h4 {
     font-size: 3rem;
     font-weight: 800;
-    line-height: 2;
+    line-height: 1.4;
 }
 
 .project-info p {
     font-size: 1.6rem;
     font-weight: 600;
-    max-height: 100px;
+    max-height: 150px;
     line-height: 1.7;
     margin: auto;
 }
@@ -686,6 +686,15 @@ span {
     .project-box {
         flex-direction: column;
         margin-bottom: 2%;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .heading span {
+        display: block;
+        font-size: 6rem;
     }
 
     .home {
