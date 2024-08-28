@@ -688,6 +688,10 @@ span {
         margin-bottom: 2%;
     }
 
+    .project-info p {
+        line-height: 1.2;
+    }
+
     .heading {
         font-size: 3rem;
     }
