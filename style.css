@@ -689,12 +689,12 @@ span {
     }
 
     .heading {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .heading span {
         display: block;
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .home {
